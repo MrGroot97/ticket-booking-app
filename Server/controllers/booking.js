@@ -178,7 +178,7 @@ const makePaymentAndBookShow = async (req, res) => {
             date: populatedBooking.show.date,
             time: populatedBooking.show.time,
             seats: populatedBooking.seats,
-            amount: populatedBooking.seats.length * populatedBooking.show.ticketPrice,
+            amount: populatedBooking.seats.length * populatedBooking.show.price,
             transactionId: populatedBooking.transactionId,
             });
     } catch (error) {
