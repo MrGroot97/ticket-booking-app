@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  @apply flex flex-col items-center mt-36 h-screen max-w-3xl mx-auto
+}
+
+section {
+  @apply w-full
+}
